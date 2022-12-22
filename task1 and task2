@@ -1,0 +1,9 @@
+#task1
+r=float(input("enter the radus of the circle : "))
+print("area of the circle is : ")
+print((22/7)r*2)
+
+#task2
+filename = input("Input the Filename: ")
+f_extns = filename.split(".")
+print ("The extension of the file is : " + repr(f_extns[1]))
